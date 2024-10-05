@@ -35,8 +35,14 @@ public class Student extends Person {
 
     // Implement abstract methods
     @Override
-    public void addPerson() {
+   public void addPerson() {
         System.out.println("Adding new student: " + getFullName());
+        System.out.println("id: "+getId());
+        System.out.println("dateOfBirth: "+getDateOfBirth());
+        System.out.println("bookBorrowDate: "+getBookBorrowDate());
+        System.out.println("bookReturnDate: "+getBookReturnDate());
+        System.out.println("gpa: "+getGpa());
+        System.out.println("major: "+getMajor());
     }
 
     @Override
