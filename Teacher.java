@@ -37,6 +37,12 @@ public class Teacher extends Person {
     @Override
     public void addPerson() {
         System.out.println("Adding new teacher: " + getFullName());
+        System.out.println("id: "+getId());
+        System.out.println("dateOfBirth: "+getDateOfBirth());
+        System.out.println("bookBorrowDate: "+getBookBorrowDate());
+        System.out.println("bookReturnDate: "+getBookReturnDate());
+        System.out.println("department: "+getDepartment());
+        System.out.println("teachingSubject: "+getTeachingSubject());
     }
 
     @Override
